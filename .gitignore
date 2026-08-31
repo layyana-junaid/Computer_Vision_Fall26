@@ -1,0 +1,15 @@
+# Data folders — exclude datasets, keep notebooks/code
+x_ray/Data/
+heart_mri/data/
+econet/EchoNet-Dynamic/
+
+# Safety net for stray data files anywhere in the repo
+*.mp4
+*.avi
+*.dcm
+*.zip
+
+# Jupyter / Python junk
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
